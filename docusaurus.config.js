@@ -14,7 +14,7 @@ const config = {
 
   // Set the production url of your site here
   // https://gedharizka.github.io/journey-doc/
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://gedharizka.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/journey-doc',
@@ -26,6 +26,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  deploymentBranch:'master',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -67,7 +68,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'My Journey',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -81,7 +82,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/gedharizka',
             label: 'GitHub',
             position: 'right',
           },
